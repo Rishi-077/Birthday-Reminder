@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+body {
+  background-color: palevioletred;
+  width: 100%;
+  height: 100vh;
+  background-size: 100%;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+.container {
+  margin-top: 280px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-item {
+  padding: 30px 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-button {
+  background-color: palevioletred;
+  border-radius: 50px;
+  font-size: 45px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-button:hover {
+  background-color: palevioletred;
 }
 
-.App-link {
-  color: #61dafb;
+.person img {
+  width: 150px;
+  border-radius: 100%;
+  margin-right: 50px;
+}
+article {
+  margin: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.person div {
+  margin-top: 50px;
+  margin-bottom: 30px;  
+}
+.person div p {
+  color: #747474;
+  font-size: 25px;
+}
+.card-item h3 {
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+h3 span {
+  font-size: 65px;
+  font-weight: 40px;
+  color: #464033;
 }
